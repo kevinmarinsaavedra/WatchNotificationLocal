@@ -13,6 +13,7 @@
 		33540BD62A7150C200E47DE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */; };
 		33540BE72A71517900E47DE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE52A71517900E47DE2 /* HomeView.swift */; };
 		33540BE82A71517900E47DE2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE62A71517900E47DE2 /* HomeViewModel.swift */; };
+		33540BEC2A7185DE00E47DE2 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33540BE52A71517900E47DE2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		33540BE62A71517900E47DE2 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				33540BCE2A7150C100E47DE2 /* WatchNotificationLocalApp.swift */,
 				33540BE42A71513F00E47DE2 /* Modules */,
+				33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */,
 				33540BD22A7150C200E47DE2 /* Assets.xcassets */,
 				33540BD42A7150C200E47DE2 /* Preview Content */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				33540BD62A7150C200E47DE2 /* Preview Assets.xcassets in Resources */,
 				33540BD32A7150C200E47DE2 /* Assets.xcassets in Resources */,
+				33540BEC2A7185DE00E47DE2 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
