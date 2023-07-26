@@ -13,7 +13,11 @@
 		33540BD62A7150C200E47DE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */; };
 		33540BE72A71517900E47DE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE52A71517900E47DE2 /* HomeView.swift */; };
 		33540BE82A71517900E47DE2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE62A71517900E47DE2 /* HomeViewModel.swift */; };
-		33540BEC2A7185DE00E47DE2 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */; };
+		33540BEC2A7185DE00E47DE2 /* PushNotificationPayload-1.apns in Resources */ = {isa = PBXBuildFile; fileRef = 33540BEB2A7185DE00E47DE2 /* PushNotificationPayload-1.apns */; };
+		33540BFE2A71961000E47DE2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BFC2A71961000E47DE2 /* NotificationController.swift */; };
+		33540BFF2A71961000E47DE2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BFD2A71961000E47DE2 /* NotificationView.swift */; };
+		33540C072A719A8600E47DE2 /* PushNotificationPayload-2.apns in Resources */ = {isa = PBXBuildFile; fileRef = 33540C062A719A8600E47DE2 /* PushNotificationPayload-2.apns */; };
+		33540C092A719A8D00E47DE2 /* PushNotificationPayload-3.apns in Resources */ = {isa = PBXBuildFile; fileRef = 33540C082A719A8D00E47DE2 /* PushNotificationPayload-3.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,11 @@
 		33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33540BE52A71517900E47DE2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		33540BE62A71517900E47DE2 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		33540BEB2A7185DE00E47DE2 /* PushNotificationPayload-1.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PushNotificationPayload-1.apns"; sourceTree = "<group>"; };
+		33540BFC2A71961000E47DE2 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		33540BFD2A71961000E47DE2 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		33540C062A719A8600E47DE2 /* PushNotificationPayload-2.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PushNotificationPayload-2.apns"; sourceTree = "<group>"; };
+		33540C082A719A8D00E47DE2 /* PushNotificationPayload-3.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PushNotificationPayload-3.apns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				33540BCE2A7150C100E47DE2 /* WatchNotificationLocalApp.swift */,
+				33540BFB2A7195EF00E47DE2 /* Views */,
 				33540BE42A71513F00E47DE2 /* Modules */,
-				33540BEB2A7185DE00E47DE2 /* PushNotificationPayload.apns */,
+				33540BEB2A7185DE00E47DE2 /* PushNotificationPayload-1.apns */,
+				33540C062A719A8600E47DE2 /* PushNotificationPayload-2.apns */,
+				33540C082A719A8D00E47DE2 /* PushNotificationPayload-3.apns */,
 				33540BD22A7150C200E47DE2 /* Assets.xcassets */,
 				33540BD42A7150C200E47DE2 /* Preview Content */,
 			);
@@ -114,6 +125,23 @@
 				33540BE52A71517900E47DE2 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		33540BFA2A7195E000E47DE2 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				33540BFC2A71961000E47DE2 /* NotificationController.swift */,
+				33540BFD2A71961000E47DE2 /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		33540BFB2A7195EF00E47DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33540BFA2A7195E000E47DE2 /* Notification */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33540C092A719A8D00E47DE2 /* PushNotificationPayload-3.apns in Resources */,
 				33540BD62A7150C200E47DE2 /* Preview Assets.xcassets in Resources */,
 				33540BD32A7150C200E47DE2 /* Assets.xcassets in Resources */,
-				33540BEC2A7185DE00E47DE2 /* PushNotificationPayload.apns in Resources */,
+				33540C072A719A8600E47DE2 /* PushNotificationPayload-2.apns in Resources */,
+				33540BEC2A7185DE00E47DE2 /* PushNotificationPayload-1.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +247,9 @@
 			files = (
 				33540BE72A71517900E47DE2 /* HomeView.swift in Sources */,
 				33540BCF2A7150C100E47DE2 /* WatchNotificationLocalApp.swift in Sources */,
+				33540BFE2A71961000E47DE2 /* NotificationController.swift in Sources */,
 				33540BE82A71517900E47DE2 /* HomeViewModel.swift in Sources */,
+				33540BFF2A71961000E47DE2 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

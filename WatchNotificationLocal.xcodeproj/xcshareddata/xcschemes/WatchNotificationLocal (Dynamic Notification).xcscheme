@@ -40,7 +40,7 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "WatchNotificationLocal Watch App/PushNotificationPayload.apns">
+      notificationPayloadFile = "WatchNotificationLocal Watch App/PushNotificationPayload-1.apns">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference

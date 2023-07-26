@@ -13,5 +13,11 @@ struct WatchNotificationLocal_Watch_AppApp: App {
         WindowGroup {
             HomeView()
         }
+        
+        //For Custom Notification
+        WKNotificationScene(
+            controller: NotificationController.self,
+            category: "Giggle"
+        )
     }
 }

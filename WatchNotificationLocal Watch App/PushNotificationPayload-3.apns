@@ -1,0 +1,14 @@
+{
+    "aps": {
+        "alert": {
+            "title": "Giggle <3!",
+            "body": "Tap me to see an adorable kitty cat."
+        },
+        
+        "category": "Giggle"
+    },
+    
+    "imageNumber": 3,
+    
+    "Simulator Target Bundle": "com.oneshot.kevinmarin.WatchNotificationLocal.watchkitapp"
+}
