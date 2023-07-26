@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		33540BCA2A7150C100E47DE2 /* WatchNotificationLocal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33540BC92A7150C100E47DE2 /* WatchNotificationLocal Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		33540BCF2A7150C100E47DE2 /* WatchNotificationLocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BCE2A7150C100E47DE2 /* WatchNotificationLocalApp.swift */; };
-		33540BD12A7150C100E47DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BD02A7150C100E47DE2 /* ContentView.swift */; };
 		33540BD32A7150C200E47DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33540BD22A7150C200E47DE2 /* Assets.xcassets */; };
 		33540BD62A7150C200E47DE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */; };
+		33540BE72A71517900E47DE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE52A71517900E47DE2 /* HomeView.swift */; };
+		33540BE82A71517900E47DE2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33540BE62A71517900E47DE2 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +43,10 @@
 		33540BC32A7150C100E47DE2 /* WatchNotificationLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNotificationLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33540BC92A7150C100E47DE2 /* WatchNotificationLocal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchNotificationLocal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33540BCE2A7150C100E47DE2 /* WatchNotificationLocalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNotificationLocalApp.swift; sourceTree = "<group>"; };
-		33540BD02A7150C100E47DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33540BD22A7150C200E47DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33540BE52A71517900E47DE2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		33540BE62A71517900E47DE2 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				33540BCE2A7150C100E47DE2 /* WatchNotificationLocalApp.swift */,
-				33540BD02A7150C100E47DE2 /* ContentView.swift */,
+				33540BE42A71513F00E47DE2 /* Modules */,
 				33540BD22A7150C200E47DE2 /* Assets.xcassets */,
 				33540BD42A7150C200E47DE2 /* Preview Content */,
 			);
@@ -92,6 +94,23 @@
 				33540BD52A7150C200E47DE2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33540BE42A71513F00E47DE2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				33540BF02A718D9000E47DE2 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		33540BF02A718D9000E47DE2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				33540BE62A71517900E47DE2 /* HomeViewModel.swift */,
+				33540BE52A71517900E47DE2 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33540BD12A7150C100E47DE2 /* ContentView.swift in Sources */,
+				33540BE72A71517900E47DE2 /* HomeView.swift in Sources */,
 				33540BCF2A7150C100E47DE2 /* WatchNotificationLocalApp.swift in Sources */,
+				33540BE82A71517900E47DE2 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
